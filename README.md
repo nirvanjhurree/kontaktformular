@@ -1,5 +1,5 @@
 # kontaktformular
-HTML contact form with pop-up window. Form data is saved to MySQL database (phpMyAdmin).
+HTML contact form with pop-up window based on received mockups. Form data is saved to MySQL database (phpMyAdmin).
 
 To test form data submission using XAMPP:
 Run: localhost/Task_Dev on your web browser
