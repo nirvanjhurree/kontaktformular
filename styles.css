@@ -1,0 +1,132 @@
+/* styles for kontakt_form.html */
+
+body {
+    font-family: 'Barlow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 80px;
+    /* border: 0.5px solid #ccc; */
+    border-radius: 8px;
+    margin-top: 0px;
+}
+
+/* For the title with an underlined thick line */
+.title {
+    color: rgb(0, 72, 132);
+    text-align: center;
+    font-size: 90px;
+    font-weight: 600;
+    margin-top: 50px;
+    background-image: linear-gradient(rgb(235, 250, 180), rgb(235, 250, 180)); /* Set the underline color */
+    background-position: 0% 100%; /* Position the gradient at the bottom */
+    background-size: 100% 30px; /* Set the height (thickness) of the underline */
+    background-repeat: no-repeat; /* Do not repeat the gradient background */
+    display: inline-block; /* Use inline-block display to prevent shifting */
+}
+
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.box img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    color: rgb(0, 72, 132);
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.footer-line {
+    border-top: 2px solid rgb(0, 72, 132);
+    margin: 20px 0;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.location-logo {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+.address p {
+    color: rgb(0, 72, 132);
+    font-size: 25px;
+}
+
+.address strong {
+    font-weight: 600; /* Use Barlow SemiBold (weight: 600) */
+}
+
+.clickable-text {
+    color: rgb(0, 72, 132);
+    cursor: pointer; /* Change the cursor to a pointer on hover for better user feedback */
+    /* text-decoration: underline; /* Optionally, add an underline for better visual indication */
+    display: flex; /* Align icon and text in a row */
+    margin-right: 30px; /* Add some space between Schreiben and Anrufen */
+    font-size: 25px;
+}
+
+.icon {
+    width: 30px; /* Set the width of the icon */
+    margin-right: 5px; /* Add some space between the icon and text */
+}
+
+/* For the container of Schreiben and Anrufen */
+.action-container {
+    display: flex; /* Display children in a row */
+}
+
+.justify-text {
+    text-align: justify;
+    font-size: 30px;
+}
+
+.justify-text a {
+    text-decoration: none; /* Remove underline from the hyperlink */
+    color: rgb(0, 72, 132); /* Set the color for the hyperlink text */
+    cursor: pointer; /* Change the cursor to indicate it's clickable */
+}
+
+/* Responsive Styling */
+
+@media (min-width: 416px) {
+    .box {
+        flex-direction: row;
+    }
+
+    .box img {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1506px) {
+    .contact-form {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 1921px) {
+    .contact-form {
+        max-width: 1600px;
+    }
+}

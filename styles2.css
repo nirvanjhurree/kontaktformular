@@ -1,0 +1,161 @@
+/* styles for popup.html */
+
+body {
+    font-family: 'Barlow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white; /* Background color for the entire page */
+    font-size: 16px;
+}
+
+header {
+    background-color: rgb(0, 150, 174); /* Header background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.popup-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white; /* Background color for the popup */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    overflow: hidden; /* Prevent image overflow */
+}
+
+.popup-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.popup-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.popup-input {
+    margin-top: 20px;
+}
+
+.submit-button {
+    margin-top: 70px;
+    background-color: rgb(0,72,132); /* Button background color */
+    color: white;
+    font-family: 'Barlow', Arial, sans-serif;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 26px;
+    display: block;
+    align-items: center;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+    margin-left: 150px; /* Push text to left of picture */
+}
+
+.text-container {
+    flex-grow: 1;
+    margin-right: 20px; /* Adjust the margin to your desired space */
+}
+
+h2 {
+    font-size: 40px; /* Increase the font size for the header */
+    font-weight: 600;
+}
+
+.justify-text {
+    font-size: 35px; /* Increase the font size for the paragraph text */
+}
+
+.clickable-text {
+    font-size: 25px; /* Increase the font size for the clickable text */
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 45px; /* Set the desired width for the image */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.clickable-text a {
+    text-decoration: none; /* Remove underline from the email link */
+    color: rgb(0, 150, 174);
+    font-size: 25px;
+}
+
+.popup-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popup-input {
+    width: 70%; /* Adjust the width as needed */
+    margin-bottom: 20px; /* Adjust the spacing between the boxes */
+}
+
+.big-box textarea{
+    border-radius: 15px; /* Adjust the radius as needed */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in the box's total width */
+    padding: 200px; /* Add padding for better appearance */
+    border: 1px solid black;
+}
+
+.big-box textarea::placeholder {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #555; /* Adjust the color of the placeholder text */
+    position: absolute; /* Position the placeholder text absolutely */
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+}
+
+.smaller-box input{
+    border-radius: 15px; /* Adjust the radius as needed */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in the box's total width */
+    padding: 20px; /* Add padding for better appearance */
+    border: 1px solid black;
+}
+
+.smaller-box input::placeholder {
+    font-family: 'Barlow', Arial, sans-serif;
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #555; /* Adjust the color of the placeholder text */
+    position: absolute; /* Position the placeholder text absolutely */
+}
+
+.privacy-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Add margin for spacing */
+}
+
+.privacy-checkbox input[type="checkbox"] {
+    margin-right: 20px; /* Add margin between checkbox and label */
+    width: 45px; /* Adjust the width */
+    height: 45px; /* Adjust the height */
+}
+
+.privacy-checkbox label {
+    font-size: 25px; /* Adjust font size */
+    color: #555; /* Adjust color */
+}
+
+.privacy-checkbox a {
+    text-decoration: none; /* Remove underline from the hyperlink */
+    color: rgb(0, 150, 174); /* Set the color for the hyperlink text */
+    cursor: pointer; /* Change the cursor to indicate it's clickable */
+}
