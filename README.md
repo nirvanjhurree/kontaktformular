@@ -5,3 +5,5 @@ To test form data submission using XAMPP:
 Run: localhost/Task_Dev on your web browser
 
 To test web design, run via live server on VS Code
+
+Logos from www.flaticon.com
